@@ -1,1 +1,49 @@
+# Lab 1 - Python introduction
 
+
+# Exercise 0 - Example
+
+q = 31
+q**4
+
+Lab 1 - Python introduction
+Exercise 0 - Example
+Assign the number 31 to a new variable, q. Write an expression that raises q to the 4th power
+
+# Your answer here
+q = 31
+q**4
+923521
+Exercise 1
+Create arbitrary list, tuple and dictionary and print them
+
+# Your answer here
+Exercise 2
+Print the next elements of array s: 10th, from 10 to 20, all elements more than 0
+
+import numpy as np
+s = np.random.normal(0,1,100)
+
+# Your answer here
+Exercise 3
+Make a function pow that raised base number to a fixed power power. If power >= 50 print message "power is too big" and return -1
+
+# Your answer here
+Exercise 4
+Make a function above(x,n) which returns all elements x > n. By default x = 10. Use numpy arrays
+
+import numpy as np
+# Your answer here
+Exercise 5
+Write a function my_ifelse(x, exp, n) which test array x with expression exp to number n. For instance, my_ifelse(x,'>=',10) returns all elements of array x which greater or equal 10. exp can be <, >, <=, >=, ==. If exp dont match these expression array x is retured
+
+import numpy as np
+# Your answer here
+Exercise 6
+Make a function called counter that takes a string input_string and returns a dictionary of letter counts.
+
+# Your answer here
+Exercise 7
+From the function counter make function counter_sorted with second boolean argumens reverse that returns sorted letter counts. Order depends of the reverse argument. By default reverse = False
+
+# Your answer here
